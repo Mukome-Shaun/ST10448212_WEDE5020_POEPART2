@@ -30,6 +30,9 @@ Goal 3: Provide detailed, accessible service information
 4.	Week 4 final check-ups and add Ons
 
 # 6. SITEMAP
+<img width="1019" height="501" alt="image" src="https://github.com/user-attachments/assets/824aa38c-58f0-4ec6-8ec6-1ad5654e847c" />
+
+
 
 # 7. REFERENCES
 GoDaddy (2025) Find the perfect domain name for your new business or project. Available at: https://www.godaddy.com/en-ph/domainsearch/find?domainToCheck=Blissreno (Accessed: 27 August 2025).
@@ -50,7 +53,12 @@ Men (2018). Men taking off old tile from wall with jackhammer. [online] iStock. 
 1.  I was told to add comments to my code as i didnt have any  so i added coments a all the webpages.
 2. I was told to embed a google maps onto my code for the contact page soo i did from line 40 to 42 on the catact page.
 3. I was told to improve my reference list by makine the list in alphabeticaal order.
-.
+
+#10 RESPONSIVE IMAGES
+<img width="1844" height="878" alt="image" src="https://github.com/user-attachments/assets/544a2809-3521-4d7c-9b9f-d5e470ac2d4e" />
+<img width="582" height="825" alt="image" src="https://github.com/user-attachments/assets/ca81e090-58b7-4206-b9fc-7d73408ced82" />
+
+
 
 
 
