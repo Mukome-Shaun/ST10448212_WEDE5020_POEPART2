@@ -1,0 +1,241 @@
+body {
+    color: white;
+    background-color: black;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #1a1a1a;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    column-gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+    border-bottom: 2px solid #ffcc00;
+}
+
+header img, footer img {
+    width: 150px;
+    height: auto;
+}
+
+main {
+    padding: 50px;
+    text-align: center;
+}
+
+h1, h2 {
+    font-size: 2.5em;
+    color: blue;
+    margin: 30px 0 20px;
+}
+
+p, ul {
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: #ddd;
+    margin: 15px 0;
+}
+
+ul {
+    list-style-position: inside;
+    padding: 0;
+}
+
+.text-container, .service-container, .review-container, .team-container, .quote-container, section {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 1366px;
+    width: 100%;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
+.gallery-image {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    margin: 10px;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    margin: 50px 0;
+    padding: 20px;
+    background-color: #222;
+    border-radius: 10px;
+}
+
+.hero-section img {
+    width: 45%;
+    max-height: 450px;
+    object-fit: cover;
+}
+
+.hero-content {
+    width: 50%;
+    text-align: left;
+}
+
+.review-container img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.team-container img, .text-container img {
+    width: 100%;
+    max-width: 1366px;
+}
+
+.service-container img {
+    max-width: 400px;
+    height: auto;
+}
+
+.quote-container iframe {
+    width: 100%;
+    max-width: 640px;
+    height: 630px;
+    border: none;
+    border-radius: 10px;
+}
+
+section iframe {
+    width: 100%;
+    max-width: 600px;
+    height: 450px;
+    border: none;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #1a1a1a;
+    padding: 20px 40px;
+    text-align: center;
+}
+
+footer nav ul {
+    justify-content: center;
+}
+
+.contact-info, .Operating-Hours {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info li, .Operating-Hours li {
+    margin: 10px 0;
+}
+
+.contact-info a {
+    color: blue;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    color: #ffcc00;
+}
+
+@media screen and (max-width: 960px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    header img, footer img {
+        width: 120px;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    .hero-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-section img {
+        width: 100%;
+        max-height: none;
+    }
+
+    .hero-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .text-container, .service-container, .review-container, .team-container, .quote-container, section {
+        padding: 15px;
+    }
+
+    .review-container img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .service-container img {
+        max-width: 100%;
+    }
+
+    .gallery-image {
+        width: 100%;
+        max-width: 300px;
+        height: 225px;
+    }
+
+    .quote-container iframe, section iframe {
+        max-width: 100%;
+        height: auto;
+    }
+
+    h1, h2 {
+        font-size: 2em;
+    }
+
+    p, ul {
+        font-size: 1em;
+    }
+
+    footer {
+        padding: 10px 20px;
+    }
+}
